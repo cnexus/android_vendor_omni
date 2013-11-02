@@ -47,6 +47,9 @@ PRODUCT_COPY_FILES += \
 # Additional packages
 -include vendor/omni/config/packages.mk
 
+# T-Mobile theme engine
+-include vendor/omni/config/themes_common.mk
+
 # Versioning
 -include vendor/omni/config/version.mk
 
